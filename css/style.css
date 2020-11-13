@@ -1,0 +1,390 @@
+body {
+  background: lightskyblue;
+  font-family: Montserrat, Lato, "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: red;
+  padding: 25px;
+  font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+
+.container {
+  padding: 1px 1px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background: lightskyblue;
+  border: 1px solid white;
+  font-weight: 800;
+  font-size: 15px !important;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 1px;
+  opacity: 1;
+  height: 72px;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: red !important;
+}
+
+.navbar-nav li a:hover {
+  color: red !important;
+  background-color: white;
+}
+
+.navbar-nav li.active a {
+  color: red !important;
+  background-color: white !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.open .dropdown-toggle {
+  color: white;
+  background-color: white !important;
+}
+
+.dropdown-menu li a {
+  color: white !important;
+  background: green !important;
+}
+
+.dropdown-menu li a:hover {
+  background-color: white !important;
+}
+
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+nav a {
+  margin-left: 53px;
+  margin-top: -50px;
+}
+
+@media (min-width: 768px) {
+  nav a {
+    margin-left: 1px;
+    margin-top: 5px;
+  }
+}
+
+nav ul li a {
+  margin-left: 1px;
+  margin-top: 1px;
+  padding-top: 1px;
+  width: 100%;
+  text-align: center;
+  background: lightskyblue;
+}
+
+nav ul li a:hover {
+  background-color: white !important;
+}
+
+header {
+  margin-top: 75px;
+  width: 100%;
+  height: 390px;
+  background: lightskyblue;
+}
+
+@media (min-width: 768px) {
+  header {
+    height: 390px;
+  }
+}
+
+.side-menu {
+  width: 20%;
+  height: 370px;
+  font-size: 12.5px;
+  float: left;
+  z-index: 20;
+  color: white;
+  background-color: rgb(2, 53, 2);
+  text-shadow: 1px 1px 1px black;
+}
+
+@media (min-width: 768px) {
+  .side-menu {
+    width: 15.5%;
+    height: 380px;
+  }
+}
+
+.side-menu ul {
+  margin-left: -35px;
+}
+
+@media (min-width: 768px) {
+  .side-menu ul {
+    margin-left: 1px;
+  }
+}
+
+.side-menu ul li {
+  list-style-type: none;
+  font-weight: bold;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.side-menu ul li:hover {
+  color: orange;
+}
+
+.side-menu ul li ul {
+  display: none;
+  z-index: 10;
+}
+
+.side-menu ul li:hover ul {
+  display: block;
+  width: 80px;
+  height: 155px;
+  margin-top: -35px;
+  margin-left: 19.5%;
+  padding: 0 1px 1px 5px;
+  position: absolute;
+  background: rgb(2, 53, 2);
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .side-menu ul li:hover ul {
+    margin-left: 12%;
+  }
+}
+
+.carousel {
+  width: 79%;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .carousel {
+    width: 84%;
+  }
+}
+
+.controls:hover {
+  opacity: 1;
+}
+
+.controls {
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  top: 37%;
+  justify-content: space-between;
+  width: 100%;
+  transition: all ease 0.5s;
+}
+
+.sign {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 1;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+
+.sign:hover {
+  opacity: 1;
+}
+
+.products {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  width: 100%;
+  transition: 1s ease-in-out all;
+}
+
+.slide {
+  min-width: 100%;
+  min-height: 175px;
+}
+
+main {
+  background: lightskyblue;
+  margin-top: 1px;
+}
+
+.bg-1 {
+  background: lightskyblue;
+  color: black;
+}
+
+.bg-1 h3 {
+  color: white;
+}
+
+.bg-1 p {
+  font-weight: 800;
+}
+
+.thumbnail {
+  padding: 1px 1px 15px 1px;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail p {
+  margin-top: 15px;
+  color: darkgreen;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.modal-header,
+h4,
+.close {
+  background-color: green;
+  color: white !important;
+  text-align: center;
+  font-size: 35px;
+}
+
+.modal-header,
+.modal-body {
+  padding: 40px 50px;
+}
+
+.nav-tabs li a {
+  color: red;
+}
+
+article {
+  background: lightskyblue;
+}
+
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 1;
+}
+
+.person:hover {
+  border-color: white;
+}
+
+footer {
+  background: lightskyblue;
+  color: white;
+  padding: 32px;
+}
+
+footer a {
+  font-size: 15px;
+  color: darkgreen;
+  font-weight: 800;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+footer a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+footer p {
+  color: green;
+  text-shadow: 1px 1px 1px black;
+}
+
+.logo-bar a {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  width: 21px;
+  height: 21px;
+  transition: all 0.2s;
+}
+
+.logo-bar a:hover {
+  transform: scale(1.2);
+}
+
+.face {
+  background: hsl(221, 44%, 40%);
+  color: white;
+}
+
+.twit {
+  background: hsl(206, 82%, 60%);
+  color: white;
+}
+
+.inst {
+  background: hsl(315, 71%, 50%);
+  color: white;
+}
+
+.link {
+  background: blue;
+  color: white;
+}
+
+.yout {
+  background: hsl(0, 100%, 50%);
+  color: white;
+}
+
+.snap {
+  background: hsl(60, 100%, 50%);
+  color: white;
+}
+
+.pint {
+  background: #c92228;
+  color: white;
+}
+
+#about {
+  margin-top: 100px;
+}

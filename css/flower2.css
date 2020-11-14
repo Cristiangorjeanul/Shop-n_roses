@@ -1,3 +1,19 @@
+b {
+  color: white;
+  font-size: 12px;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  text-align: center;
+  font-weight: 800;
+}
+
+.petals {
+  color: white;
+  font-size: 12px;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  text-align: center;
+  font-weight: 800;
+}
+
 .flower2 {
   width: 290px;
   height: 290px;

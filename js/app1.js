@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var petal6 = document.querySelector("#petal6");
     var petal7 = document.querySelector("#petal7");
     var petal8 = document.querySelector("#petal8");
+    var petal = document.querySelector(".petals");
+    
 
 
     setInterval(function () {

@@ -28,7 +28,7 @@ $(function () {
             }
         }
         if (checkArray.length === 8) {
-            $(".tile").css("background-image", "url(../assets/tree.jpg)");
+            $(".tile").css("background-image", "url(../assets/puzzle.jpg)");
             setTimeout(function () {
                 alert("Congratulations! If you want to play again click OK!");
                 init();

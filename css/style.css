@@ -43,11 +43,13 @@ h5 {
 .navbar-nav li a:hover {
   color: red !important;
   background-color: white;
+  animation: btn-shake 0.35s ease-in-out;
 }
 
 .navbar-nav li.active a {
   color: red !important;
   background-color: white !important;
+  animation: btn-shake 0.35s ease-in-out;
 }
 
 .navbar-default .navbar-toggle {
@@ -101,6 +103,25 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: white !important;
+  animation: btn-shake 0.35s ease-in-out;
+}
+
+@keyframes btn-shake {
+  20% {
+    transform: translateX(8px);
+  }
+  40% {
+    transform: translateX(-6px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 header {
